@@ -40,6 +40,12 @@ public class Tortoise extends Thread {
                 System.err.println("The Tortoise has lost the path!");
             }
         }
+        JOptionPane.showConfirmDialog(
+                null,
+                "The Tortoise has completed the race!",
+                "Tortoise",
+                JOptionPane.OK_CANCEL_OPTION
+        );
     }
 }
 
